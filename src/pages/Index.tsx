@@ -46,7 +46,7 @@ const Index = () => {
             <a href="#contato" className="hover:text-primary-glow transition-smooth">Contato</a>
           </nav>
           <Button variant="gold" size="sm" asChild>
-            <a href="https://wa.me/5561994280708?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20ser%20uma%20revendedora" target="_blank" rel="noopener noreferrer">Falar no WhatsApp</a>
+            <a href="{WHATSAPP_URL_PLACEHOLDER}" target="_blank" rel="noopener noreferrer">Falar no WhatsApp</a>
           </Button>
         </div>
       </header>
@@ -76,7 +76,7 @@ const Index = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button variant="gold" size="xl" asChild>
-                <a href="https://wa.me/5561994280708?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20ser%20uma%20revendedora" target="_blank" rel="noopener noreferrer">Quero ser revendedora</a>
+                <a href="{WHATSAPP_URL_PLACEHOLDER}" target="_blank" rel="noopener noreferrer">Quero ser revendedora</a>
               </Button>
               <Button variant="outlineGold" size="xl" className="text-primary-foreground border-primary-foreground/40 hover:bg-primary-foreground hover:text-foreground" asChild>
                 <a href="#como-funciona">Como funciona</a>
@@ -187,7 +187,7 @@ const Index = () => {
 
             <div id="area-revendedora" className="flex justify-center">
               <Button variant="gold" size="xl" asChild>
-                <a href="https://wa.me/5561994280708?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20ser%20uma%20revendedora" target="_blank" rel="noopener noreferrer">Falar no WhatsApp</a>
+                <a href="{WHATSAPP_URL_PLACEHOLDER}" target="_blank" rel="noopener noreferrer">Falar no WhatsApp</a>
               </Button>
             </div>
           </div>
