@@ -20,7 +20,7 @@ const Index = () => {
             <a href="#contato" className="hover:text-primary-glow transition-smooth">Contato</a>
           </nav>
           <Button variant="gold" size="sm" asChild>
-            <a href="#area-revendedora">Área da Revendedora</a>
+            <a href="https://wa.me/5561994280708?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20ser%20uma%20revendedora" target="_blank" rel="noopener noreferrer">Falar no WhatsApp</a>
           </Button>
         </div>
       </header>
@@ -46,11 +46,11 @@ const Index = () => {
               Sua parceira no mundo das <em className="text-gradient-gold not-italic font-normal">semijoias</em>
             </h1>
             <p className="text-lg md:text-xl text-primary-foreground/85 max-w-2xl mb-10 leading-relaxed font-light">
-              Fornecemos kits completos para você revender e lucrar — sem investimento inicial. Transforme sua vida com peças que encantam.
+              Fornecemos kits completos para você revender e lucrar, sem investimento inicial. Transforme sua vida com peças que encantam.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button variant="gold" size="xl" asChild>
-                <a href="#area-revendedora">Quero ser revendedora</a>
+                <a href="https://wa.me/5561994280708?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20ser%20uma%20revendedora" target="_blank" rel="noopener noreferrer">Quero ser revendedora</a>
               </Button>
               <Button variant="outlineGold" size="xl" className="text-primary-foreground border-primary-foreground/40 hover:bg-primary-foreground hover:text-foreground" asChild>
                 <a href="#como-funciona">Como funciona</a>
@@ -147,9 +147,9 @@ const Index = () => {
 
             <div className="grid sm:grid-cols-3 gap-6 mb-12 text-left">
               {[
-                { icon: MessageCircle, label: "WhatsApp", value: "(61) 99999-0000" },
+                { icon: MessageCircle, label: "WhatsApp", value: "(61) 99428-0708" },
                 { icon: Mail, label: "E-mail", value: "contato@clarafolheados.com.br" },
-                { icon: Instagram, label: "Instagram", value: "@clarafolheados" },
+                { icon: Instagram, label: "Instagram", value: "@clara.folheadoss" },
               ].map((c) => (
                 <div key={c.label} className="p-6 rounded-sm border border-primary-foreground/10 bg-primary-foreground/5 backdrop-blur-sm hover:border-primary-glow/40 transition-smooth">
                   <c.icon className="h-5 w-5 text-primary-glow mb-3" />
@@ -159,12 +159,9 @@ const Index = () => {
               ))}
             </div>
 
-            <div id="area-revendedora" className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div id="area-revendedora" className="flex justify-center">
               <Button variant="gold" size="xl" asChild>
-                <a href="#" target="_blank" rel="noopener noreferrer">Área da Revendedora</a>
-              </Button>
-              <Button variant="outlineGold" size="xl" className="text-primary-foreground border-primary-foreground/30 hover:bg-primary-foreground hover:text-foreground" asChild>
-                <a href="https://wa.me/5561999990000" target="_blank" rel="noopener noreferrer">Falar no WhatsApp</a>
+                <a href="https://wa.me/5561994280708?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20ser%20uma%20revendedora" target="_blank" rel="noopener noreferrer">Falar no WhatsApp</a>
               </Button>
             </div>
           </div>
