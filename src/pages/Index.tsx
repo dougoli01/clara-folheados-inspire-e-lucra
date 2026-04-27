@@ -230,8 +230,30 @@ const Index = () => {
           <div className="pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-muted-foreground">
             <div>© {new Date().getFullYear()} Clara Folheados Ltda. Todos os direitos reservados.</div>
             <div className="flex gap-6">
-              <a href="#" className="hover:text-primary transition-smooth">Política de Privacidade</a>
-              <a href="#" className="hover:text-primary transition-smooth">Termos de Uso</a>
+              <Dialog>
+                <DialogTrigger className="hover:text-primary transition-smooth">Política de Privacidade</DialogTrigger>
+                <DialogContent className="max-w-2xl">
+                  <DialogHeader>
+                    <DialogTitle className="font-serif text-2xl">Política de Privacidade — Clara Folheados</DialogTitle>
+                    <DialogDescription className="sr-only">Política de Privacidade da Clara Folheados</DialogDescription>
+                  </DialogHeader>
+                  <ScrollArea className="max-h-[60vh] pr-4">
+                    <p className="text-sm text-muted-foreground whitespace-pre-line leading-relaxed">{PRIVACY_TEXT}</p>
+                  </ScrollArea>
+                </DialogContent>
+              </Dialog>
+              <Dialog>
+                <DialogTrigger className="hover:text-primary transition-smooth">Termos de Uso</DialogTrigger>
+                <DialogContent className="max-w-2xl">
+                  <DialogHeader>
+                    <DialogTitle className="font-serif text-2xl">Termos de Uso — Clara Folheados</DialogTitle>
+                    <DialogDescription className="sr-only">Termos de Uso da Clara Folheados</DialogDescription>
+                  </DialogHeader>
+                  <ScrollArea className="max-h-[60vh] pr-4">
+                    <p className="text-sm text-muted-foreground whitespace-pre-line leading-relaxed">{TERMS_TEXT}</p>
+                  </ScrollArea>
+                </DialogContent>
+              </Dialog>
             </div>
           </div>
         </div>
