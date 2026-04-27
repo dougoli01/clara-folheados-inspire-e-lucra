@@ -5,7 +5,7 @@ import { Package, ShoppingBag, TrendingUp, MessageCircle, Instagram, Mail, Phone
 import heroImage from "@/assets/hero-jewelry.jpg";
 import kitImage from "@/assets/kit-jewelry.jpg";
 
-const WHATSAPP_URL = "https://wa.me/5561994280708?text=Olá+vim+pelo+site+e+gostaria+de+ser+uma+revendedora";
+const WHATSAPP_URL = `https://wa.me/5561994280708?text=${encodeURIComponent("Olá, vim pelo site e gostaria de ser uma revendedora")}`;
 
 const PRIVACY_TEXT = `A Clara Folheados valoriza a privacidade dos seus usuários. Esta política descreve como coletamos e utilizamos suas informações.
 
