@@ -1,7 +1,33 @@
 import { Button } from "@/components/ui/button";
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger, DialogDescription } from "@/components/ui/dialog";
+import { ScrollArea } from "@/components/ui/scroll-area";
 import { Package, ShoppingBag, TrendingUp, MessageCircle, Instagram, Mail, Phone, MapPin, Sparkles } from "lucide-react";
 import heroImage from "@/assets/hero-jewelry.jpg";
 import kitImage from "@/assets/kit-jewelry.jpg";
+
+const WHATSAPP_URL = "https://wa.me/5561994280708?text=Olá+vim+pelo+site+e+gostaria+de+ser+uma+revendedora";
+
+const PRIVACY_TEXT = `A Clara Folheados valoriza a privacidade dos seus usuários. Esta política descreve como coletamos e utilizamos suas informações.
+
+1. Coleta de Dados: Coletamos apenas as informações necessárias para o contato comercial e suporte ao cliente, como nome, e-mail e telefone, quando fornecidos voluntariamente através de nossos formulários.
+
+2. Uso das Informações: Os dados coletados são utilizados exclusivamente para o atendimento ao cliente, envio de atualizações sobre pedidos e comunicações de marketing relacionadas à Clara Folheados.
+
+3. Cookies: Utilizamos cookies e tecnologias semelhantes (como o Pixel da Meta) para analisar o tráfego do site e melhorar a experiência do usuário.
+
+4. Proteção de Dados: Não compartilhamos, vendemos ou alugamos seus dados pessoais a terceiros.
+
+5. Seus Direitos: Você pode solicitar a exclusão de seus dados de nossa base de contatos a qualquer momento entrando em contato pelo e-mail: contato@clarafolheados.com.br.`;
+
+const TERMS_TEXT = `Ao acessar o site da Clara Folheados, você concorda em cumprir estes termos de serviço.
+
+1. Aceitação dos Termos: O acesso ao site é permitido para fins de consulta de produtos e uso das ferramentas disponibilizadas pela empresa.
+
+2. Propriedade Intelectual: Todo o conteúdo deste site, incluindo textos, logotipos e imagens de folheados, é de propriedade exclusiva da Clara Folheados.
+
+3. Responsabilidade: A Clara Folheados não se responsabiliza por danos decorrentes do uso indevido das informações contidas neste site ou por instabilidades técnicas de terceiros.
+
+4. Alterações: Reservamo-nos o direito de atualizar estes termos a qualquer momento para refletir mudanças em nossos serviços ou na legislação vigente.`;
 
 const Index = () => {
   return (
